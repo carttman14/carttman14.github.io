@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- google fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200&display=swap" rel="stylesheet">
+    <title>carttman14 Portfolio website
+
+    </title>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="./img/cartman14.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"><i class="fas fa-bars"></i> </span>
+
+
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My work</a></li>
+
+                </ul>
+            </nav>
+        
+    </header>
+    <!-- Introduction -->
+    <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi I am <strong>David Gómez</strong>
+        </h1>
+        <br><br>
+        <p class="section__subtitle section__subtitle--intro">Web developer</p>
+        <img src="./img/profilePic.jpg" class="intro__img" alt="">
+    </section>
+    
+    <!-- My services -->
+
+    <section class="my-services" id='services'>
+        <h2 class="section__title section__title--services">What I do </h2>
+        <div class="services">
+            <div class="service">
+                <h3>Frontend developing</h3>
+                <p>Skillful use of HTML5 with some design frameworks like bootstrap and vanilla CSS,
+                    good skills at react integrated with materialUI and JS. Light knowledges of typeScript , Angular 9 and vue 3.0 for basic templates with vuex and vuetify.
+                </p>
+            </div>
+            <div class="service">
+                <h3>Backend developing</h3>
+                <p>Usage of php and Laravel framework for connections to mysql databases. Use of node JS with express JS for MERN crud and Springboot with MVC pattern.</p>
+            </div>
+            <div class="service">
+                <h3>Requirements Modeling and other skills</h3>
+                <p>High english skills and requirements survey to develop and deploy a website or web app according to the customer needs or
+                desires. Ease of learning, good willingness to learn and discipline for new technologies.</p>
+            </div>
+            <!-- /service -->
+        </div>
+        <!-- /services -->
+        <br><br>
+        <a href="#work" class="btn">My work</a>
+         
+    </section>
+    <!-- About me -->
+    <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am </h2><br>
+        <p class="section__subtitle section__subtitle--about">Fullstack developer </p>
+        <div class="about-me__body">
+            <p>I am a fullstack engineer passionate for programming, with a lot of energy to study and learn, focused on languages based on Javascript, knowledge in framework react, vue and angular. Design and development of webpages using  HTML CSS and javaScript.</p>
+            <p>English skills in a conversational level and also ux design and nice social relationship skills. I always strive to achieve the best standard possible, at any task in any given situation. I am accostumed to working in a challenging and fast-paced environment when dealing with multiple projects and priorities at the same time.</p>
+        </div>
+        <img src="./img/aboutPic.jpg" alt="Davy in Car" class="about-me__img">
+    </section>
+
+    <!-- /About me -->
+
+    <!-- portfolio -->
+
+    <section class="my-work" id="work">
+        <h2 class="section__title section__title--work">My work</h2>
+        <br><br>
+        <p class="section__subtitle section__subtitle--work">Selection of my work</p>
+        <div class="portfolio">
+            <!-- portfolio item 01 -->
+            <a href="https://carttman14.github.io/CountdownTimer/" target="_blank" class="portfolio__item">
+                <img src="./img/countdown.jpg" alt="countdown" class="portfolio__img">
+            </a>
+            <!-- portfolio item 02 -->
+            <a href="https://carttman14.github.io/lolly/" target="_blank" class="portfolio__item">
+                <img src="./img/lollySite.jpg" alt="lolly" class="portfolio__img">
+            </a>
+            <!-- portfolio item 03 -->
+            <a href="#" target="_blank" class="portfolio__item">
+                <img src="./img/ecoplast.jpg" alt="ecoplast" class="portfolio__img">
+            </a>
+        <!-- portfolio item 04 -->
+        <a href="#" target="_blank" class="portfolio__item">
+            <img src="./img/skyrim.jpg" alt="skyrim" class="portfolio__img">
+        </a>
+        <!-- portfolio item 05 -->
+        <a href="#"  class="portfolio__item">
+            <img src="./img/fallout.jpg" alt="fallout" class="portfolio__img">
+        </a>
+        <!-- portfolio item 06 -->
+        <a href="#" target="_blank" class="portfolio__item">
+            <img src="img/aurora.jpg" alt="countdown" class="portfolio__img">
+        </a>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer">
+        <!-- my email address -->
+        <a href="mailto:carttman14@gmail.com" class="footer__link">carttman14@gmail.com</a>
+        <ul class="social-list">
+            <li class="social__list__item">
+                <a href="https://carttman14.github.io/" class="social-list__link"  >
+                   <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social__list__item">
+                <a href="https://facebook.com" class="social-list__link"  >
+                     <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social__list__item">
+                <a href="https://twitter.com/carttman14" class="social-list__link"  >
+                 <i class="fab fa-twitter"></i>
+                </a></li>
+            <li class="social__list__item">
+                <a href="https://www.instagram.com/davyjones417/" class="social-list__link"  >
+                 <i class="fab fa-instagram"></i>
+                </a></li>
+        </ul>
+    </footer>
+
+    <script src="js/index.js"></script>
+</body>
+</html>
